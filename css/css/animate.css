@@ -1,0 +1,276 @@
+.laser {
+    width: 300px;
+    background-color: rgba(57,255,20,0.7);
+    height: 1px;
+    position: relative;
+    top: 40%;
+    z-index: 2;
+    box-shadow: 0 0 4px rgba(57,255,20,0.7);;
+    animation: scanning 5s infinite;
+    margin: 0 auto;
+  }
+
+  .diode {
+    animation: beam infinite infinite;
+    margin: 0 auto;
+  }
+
+
+
+body {
+  height: 100%;
+}
+
+@keyframes beam {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes scanning {
+  50% {
+    transform: translateY(-300px);
+  }
+}
+
+.cbs-Item {
+  background: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.cbs-Item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cover_fit {
+  object-fit: cover;
+
+  width: 300px;
+  height: 300px;
+}
+
+@-webkit-keyframes cf3FadeInOut {
+   0% {
+     opacity:1;
+   }
+   25% {
+    opacity:1;
+  }
+  75% {
+    opacity:0;
+  }
+  100% {
+   opacity:0;
+ }
+}
+
+@-moz-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@-o-keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+@keyframes cf3FadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 25% {
+  opacity:1;
+}
+75% {
+  opacity:0;
+}
+100% {
+ opacity:0;
+}
+}
+
+#cf3 {
+  position:relative;
+  height:300px;
+  width:300px;
+  margin: 0 auto;
+}
+
+#cf3 img {
+  position:absolute;
+  left:0;
+}
+
+#cf3 img.bottom {
+
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+
+#cf3 img.top {
+
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation-name: cf3FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 2s;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: cf3FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 2s;
+  -o-animation-direction: alternate;
+
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+#cf3b {
+  position:relative;
+  height:300px;
+  width:300px;
+  margin: 0 auto;
+}
+
+#cf3b img {
+  position:absolute;
+  left:0;
+}
+
+#cf3b img.bottom {
+
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+
+#cf3b img.top {
+
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  
+  background-color: rgba(255,255,255,1.0);
+
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation-name: cf3FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 2s;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: cf3FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 2s;
+  -o-animation-direction: alternate;
+
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+
+#cf3a {
+  position:relative;
+  height: 40px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+#cf3a img {
+  position:absolute;
+  left:0;
+}
+
+#cf3a img.bottom {
+
+  width: 120px;
+  margin: 0 auto;
+
+}
+
+#cf3a img.top {
+
+  width: 120px;
+  margin: 0 auto;
+  
+  background-color: #fefefe;
+
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+
+  -moz-animation-name: cf3FadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 2s;
+  -moz-animation-direction: alternate;
+
+  -o-animation-name: cf3FadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 2s;
+  -o-animation-direction: alternate;
+
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
